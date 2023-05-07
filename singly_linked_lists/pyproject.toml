@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "singly-linked-list"
+version = "0.1.0"
+description = "Singly Linked List in Python"
+authors = ["Jacob Biehler <jacob@biehlerj.xyz>"]
+packages = [{ include = "singly_linked_list" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^23.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
